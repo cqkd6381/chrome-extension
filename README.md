@@ -9,4 +9,10 @@ Chrome extension development experience
 如果您只需要向您的扩展程序的另一部分发送一个简单消息（以及可选地获得回应），您应该使用比较简单的 runtime.sendMessage 方法。这些方法允许您从内容脚本向扩展程序发送可通过 JSON 序列化的消息，可选的 callback 参数允许您在需要的时候从另一边处理回应。
 
 如下列代码所示从内容脚本中发送请求：
-
+```
+    function fun(){
+         echo "这是一句非常牛逼的代码";
+    }
+    fun();
+```
+`create database hero;`
